@@ -1,0 +1,128 @@
+LOCALIZATION = {
+    "en": {
+        # --- Application Headings & Version Titles ---
+        "app_title": "Android Automation Tool Box",
+        "ready": "Ready",
+
+        # --- Top Toolbar Icon Actions (Tooltips) ---
+        "btn_run_tooltip": "Run the sequence of actions",
+        "btn_stop_tooltip": "Stop the current sequence",
+        "clear_all_tooltip": "Clear the entire list of actions",
+        "save_json_tooltip": "Save current sequence to a JSON file",
+        
+        # --- JSON Sequence Path Field (Form Labels & Tooltips) ---
+        "tf_filepath_label": "JSON Path",
+        "tf_filepath_tooltip": "Path to the JSON configuration file to save/load",
+        "json_select_tooltip": "Browse and choose a JSON configuration file",
+        "json_upload_tooltip": "Load selected JSON file into the sequence",
+        "export_python_tooltip": "Export actions into executable Python script",
+
+        # --- ADB Device Configuration Block ---
+        "device_dropdown_label": "Device",
+        "device_dropdown_tooltip": "Select active ADB device index",
+        "refresh_device_tooltip": "Refresh devices and apply selection",
+
+        # --- Screen Capture & Scale Panel (Left Side Tooltips) ---
+        "screenshot_btn_tooltip": "Capture device screen",
+        "btn_crop_tooltip": "Crop selected area and save it as search template",
+        "zoom_in_tooltip": "Zoom in screen preview",
+        "zoom_out_tooltip": "Zoom out screen preview",
+        "zoom_reset_tooltip": "Reset screen preview zoom to default",
+        "auto_refresh_label": "Auto Refresh Screen",
+        "auto_refresh_tooltip": "Periodically capture screen every second",
+
+        # --- Screenshot Info & Interaction Modes ---
+        "pixel_info_tooltip": "Displays coordinates and RGB color of the hovered pixel",
+        "pixel_info_default": "Hover image for pixel info",
+        "radio_crop_label": "Crop",
+        "radio_crop_tooltip": "Drag on screen preview to crop image search templates",
+        "radio_click_label": "Click",
+        "radio_click_tooltip": "Tap on screen preview to quickly perform or add click actions",
+
+        # --- Device Control Panel (Form Inputs & Interaction Buttons) ---
+        "current_package_label": "Current Package",
+        "current_package_tooltip": "Displays the currently active package",
+        "current_activity_label": "Current Activity",
+        "current_activity_tooltip": "Displays the currently active screen/activity",
+        "check_activity_tooltip": "Retrieve active package and activity from device",
+        "start_app_label": "Package",
+        "start_app_tooltip": "Package ID to start, stop or clear",
+        "start_app_btn_tooltip": "Start the specified application",
+        "stop_app_btn_tooltip": "Force stop the specified application",
+        "clear_app_btn_tooltip": "Clear data and cache for the specified application",
+        "install_apk_label": "APK Path Install",
+        "install_apk_tooltip": "Absolute path to APK file on PC",
+        "apk_select_tooltip": "Browse file system for an APK file",
+        "install_apk_btn_tooltip": "Install selected APK on the device",
+        "uninstall_app_label": "Uninstall Package",
+        "uninstall_app_tooltip": "Package name of the application to uninstall",
+        "uninstall_app_btn_tooltip": "Uninstall application from device by package name",
+        "list_all_switch_user": "User Apps",
+        "list_all_switch_all": "All Apps",
+        "list_all_switch_tooltip": "Toggle showing only user apps or all (system) apps",
+        "list_apps_btn_tooltip": "Fetch and display list of installed applications",
+
+        # --- Console Output & Action Trees ---
+        "console_header": "Logs Console:",
+        "fab_add_tooltip": "Add a new action to the end of the sequence",
+        "no_actions": "Add some actions",
+
+        # --- Core Logging & Toast Status Notifications ---
+        "status_list_cleaned": "List cleared",
+        "status_saved": "Saved",
+        "status_loaded": "Loaded",
+        "status_no_screenshot": "Don't get screenshot",
+        "status_screenshot_ready": "Screenshot ready",
+        "status_screenshoting": "Screenshoting...",
+        "status_crop_small": "Selection too small",
+        "status_crop_no_screenshot": "No screenshot available!",
+        "status_crop_no_selection": "Select area first!",
+        "status_crop_cancelled": "Crop cancelled",
+        "status_crop_error": "Crop error",
+        "status_copied_clipboard": "Copied to clipboard!",
+        "status_export_nothing": "Nothing to export",
+        "status_list_empty": "List empty!",
+
+        # --- Dynamic Dialogue Boxes (Parameters & Confirmations) ---
+        "dialog_title": "Do settings",
+        "dialog_cancel": "Cancel",
+        "dialog_save": "Save",
+        "type_doing": "Type doing",
+        "path_image": "Path image",
+        "confidence": "Confidence (0.1-1.0)",
+        "click_or_not": "Click or Not?",
+        "pause_sec": "Pause (sec)",
+        "custom_x": "Custom X",
+        "custom_y": "Custom Y",
+        "x_coordinate": "X coordinate",
+        "y_coordinate": "Y coordinate",
+        "click_type": "Click type",
+        "text_to_send": "Text to send",
+        "clear_field_first": "Clear field first?",
+        "package_name": "Package Name",
+        "target_activity": "Target Activity",
+        "sec": "Sec",
+        "max_iteration": "Max. iteration (0=∞)",
+        "limit_time": "Limit time (sec)",
+        "delay_ms": "Delay (ms)",
+        "path_to_apk": "Path to APK",
+        "package_uninstall": "Package Name",
+        "all_apps": "All apps?",
+        "timeout_sec": "Timeout (sec)",
+        "dialog_coordinates": "Coordinates:",
+        "dialog_if_break": "if ... break",
+        "dialog_break_while": "break while, if time >:",
+        "dialog_swipe_coordinates": "Swipe coordinates:",
+        "dialog_add_simple_click": "Add Simple Click",
+        "dialog_click_add_prompt": "Click 'Add' to add to sequence or 'Cancel' to abort",
+        "dialog_add_seq_title": "Add to sequence?",
+        "dialog_file_saved": "File saved as",
+        "dialog_add_action_prompt": "Do you want to add a click/find action for this image to the sequence?",
+        "dialog_skip": "Skip",
+        "dialog_skip_tooltip": "Skip adding action",
+        "dialog_add_action": "Add Action",
+        "dialog_add_action_tooltip": "Add action to sequence",
+        "dialog_save_crop_title": "Save cropped image",
+        "dialog_file_name_label": "File name"
+    }
+}
