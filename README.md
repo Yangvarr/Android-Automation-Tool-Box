@@ -28,6 +28,7 @@ cd Android-Automation-Tool-Box
 ```
 ## Установите необходимые зависимости:
 ```
+uv venv
 uv pip install -r requirements.txt
 ```
 ## Запустите приложение:
