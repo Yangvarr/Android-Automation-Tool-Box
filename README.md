@@ -1,11 +1,12 @@
 # Android Automation Tool Box
-![Интерфейс приложения](view.png)
+  <img width="2560" height="1080" alt="image" src="https://github.com/user-attachments/assets/59df5b1e-ebf9-4fff-a54f-cf0322eb161a" />
 *   **Это кроссплатформенное графическое приложение на базе фреймворка Flet.**
 *   **Разработанное для упрощения процесса автоматизации действий на Android-устройствах.**
 *   **Инструмент позволяет визуально проектировать сценарии автоматизации (клики, свайпы, проверки активности, условные переходы, циклы).**
+<img width="2560" height="1080" alt="image" src="https://github.com/user-attachments/assets/ae216b43-d861-42e8-93ec-ba5a78fb0cbe" />
 *   **И экспортировать их в готовые к исполнению скрипты на языке Python.**
-  <img width="2560" height="1080" alt="image" src="https://github.com/user-attachments/assets/ae216b43-d861-42e8-93ec-ba5a78fb0cbe" />
-  <img width="2560" height="1080" alt="image" src="https://github.com/user-attachments/assets/59df5b1e-ebf9-4fff-a54f-cf0322eb161a" />
+
+
   <img width="2560" height="1080" alt="image" src="https://github.com/user-attachments/assets/03691ad2-108a-400d-8840-c136b5b63fb3" />
 
 ---
