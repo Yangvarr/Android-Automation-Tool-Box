@@ -30,7 +30,7 @@ cd Android-Automation-Tool-Box
 ```
 ## Установите необходимые зависимости:
 ```
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 ## Запустите приложение:
 ```
