@@ -29,7 +29,7 @@ ADB должна быть установлена на компьютере и д
 ## Клонируйте репозиторий:
 ```
 git clone https://github.com/Yangvarr/Android-Automation-Tool-Box.git
-cd android-automation-toolbox
+cd Android-Automation-Tool-Box
 ```
 ## Установите необходимые зависимости:
 ```
