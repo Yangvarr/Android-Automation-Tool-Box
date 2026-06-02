@@ -34,16 +34,14 @@ Android Automation Tool Box — это кроссплатформенное гр
 ## Android Debug Bridge (ADB). Утилита должна быть установлена на компьютере и добавлена в системную переменную PATH.
 На целевом Android-устройстве должен быть включен режим «Отладка по USB» (USB Debugging).
 
-Клонируйте репозиторий:
-code
-Bash
-git clone https://github.com/ваше-имя-пользователя/android-automation-toolbox.git
+## Клонируйте репозиторий:
+```git clone https://github.com/ваше-имя-пользователя/android-automation-toolbox.git
 cd android-automation-toolbox
-Установите необходимые зависимости:
-code
-Bash
-pip install -r requirements.txt
-Запустите приложение:
-code
-Bash
-python main.py
+```
+## Установите необходимые зависимости:
+
+```pip install -r requirements.txt
+```
+## Запустите приложение:
+```python main.py
+```
