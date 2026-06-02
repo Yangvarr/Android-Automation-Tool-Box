@@ -35,13 +35,15 @@ Android Automation Tool Box — это кроссплатформенное гр
 На целевом Android-устройстве должен быть включен режим «Отладка по USB» (USB Debugging).
 
 ## Клонируйте репозиторий:
-```git clone https://github.com/ваше-имя-пользователя/android-automation-toolbox.git
+```
+git clone https://github.com/ваше-имя-пользователя/android-automation-toolbox.git
 cd android-automation-toolbox
 ```
 ## Установите необходимые зависимости:
-
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 ## Запустите приложение:
-```python main.py
+```
+python main.py
 ```
